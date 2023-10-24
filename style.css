@@ -1,4 +1,5 @@
 body{
+    
     background-color: brown;
 }
 
@@ -22,7 +23,6 @@ nav ul{
 
 nav li{
     float: left;
-
 }
 
 nav a{
@@ -30,7 +30,6 @@ nav a{
     color: white;
     text-align: center;
     padding: 14px 16px;
-
 }
 
 
@@ -41,10 +40,82 @@ main{
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-
+    background-image:url(wallpaper.png);
 }
+
+
+
+
 
 footer{
     background-color: blueviolet;
     text-align: center;
 }
+
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: aquamarine;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+button[type="submit"],
+button[type="reset"]{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: chartreuse;
+    border: none;
+    color: crimson;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover{
+    background-color: crimson;
+    color:chartreuse;
+    font-weight: bold;
+}
+
+div#kiri{
+    width: 48%;
+    float: left;
+    padding: 5px;
+    border-style: dashed;
+    background-color: cornflowerblue;
+}
+
+div#kanan{
+    width: 48%;
+    float: right;
+    padding: 5px;
+    border-style: dashed;
+    background-color: coral;
+}
+.clear {clear:both}
